@@ -1,0 +1,31 @@
+/*Dataslider*/
+.frame ul {
+  list-style: none;
+}
+.frame ul li {
+  float: left;
+  width: 106px;
+  height: 60px;
+  margin: 0 5px;
+  padding: 20px 0;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  border: solid #ddd 1px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+.frame p {
+  margin: 0
+}
+.frame .theday {
+  margin-top: -8px;
+  font-weight: 600;
+}
+.frame ul li.active {
+  background: #ddd;
+}
+.col-slider {
+  width: 350px;
+  margin: 0 auto
+}
