@@ -1,117 +1,120 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/dateslider.css">
 
     <title>Dateslider</title>
-  </head>
-  <body>
-  <div class="container-fluid pt-2">
+</head>
+<body>
+<div class="container-fluid pt-2">
     <div class="row">
-      <div class="col-slider">
-        <div class="frame" id="centered">
-          <ul class="clearfix">
-            <li>0</li>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>Miércoles, 6 ago.</li>
-            <li><p class="theday">Ayer</p>Jueves, 7 ago.</li>
-            <li><p class="theday">Hoy</p>Viernes, 8 ago.</li>
-            <li><p class="theday">Mañana</p>Sábado, 9 ago.</li>
-            <li>Domingo, 10 ago.</li>
-            <li>11</li>
-            <li>12</li>
-            <li>13</li>
-            <li>14</li>
-            <li>15</li>
-            <li>16</li>
-            <li>17</li>
-            <li>18</li>
-            <li>19</li>
-            <li>20</li>
-            <li>21</li>
-            <li>22</li>
-            <li>26</li>
-            <li>37</li>
-            <li>38</li>
-            <li>39</li>
-            <li>310</li>
-            <li>311</li>
-            <li>312</li>
-            <li>313</li>
-            <li>314</li>
-            <li>315</li>
-            <li>316</li>
-            <li>30</li>
-            <li>41</li>
-            <li>42</li>
-            <li>43</li>
-            <li>44</li>
-            <li>45</li>
-            <li>46</li>
-            <li>47</li>
-            <li>48</li>
-            <li>49</li>
-            <li>510</li>
-            <li>511</li>
-            <li>512</li>
-            <li>513</li>
-            <li>514</li>
-            <li>515</li>
-            <li>516</li>
-            <li>50</li>
-            <li>51</li>
-            <li>52</li>
-            <li>53</li>
-            <li>54</li>
-            <li>55</li>
-            <li>56</li>
-            <li>67</li>
-            <li>68</li>
-            <li>69</li>
-            <li>610</li>
-            <li>611</li>
-            <li>612</li>
-            <li>613</li>
-            <li>614</li>
-            <li>615</li>
-            <li>616</li>
-            <li>60</li>
-            <li>71</li>
-            <li>72</li>
-            <li>73</li>
-            <li>74</li>
-            <li>75</li>
-            <li>76</li>
-            <li>77</li>
-            <li>78</li>
-            <li>79</li>
-            <li>710</li>
-            <li>811</li>
-            <li>812</li>
-            <li>813</li>
-            <li>814</li>
-            <li>815</li>
-            <li>816</li>
-          </ul>
+        <div class="col-slider">
+            <div class="frame" id="centered">
+                <ul id="items" class="clearfix">
+                    <!--            <li>0</li>-->
+                    <!--            <li>1</li>-->
+                    <!--            <li>2</li>-->
+                    <!--            <li>3</li>-->
+                    <!--            <li>4</li>-->
+                    <!--            <li>5</li>-->
+                    <!--            <li>Miércoles, 6 ago.</li>-->
+                    <!--            <li><p class="theday">Ayer</p>Jueves, 7 ago.</li>-->
+                    <!--            <li><p class="theday">Hoy</p>Viernes, 8 ago.</li>-->
+                    <!--            <li><p class="theday">Mañana</p>Sábado, 9 ago.</li>-->
+                    <!--            <li>Domingo, 10 ago.</li>-->
+                    <!--            <li>11</li>-->
+                    <!--            <li>12</li>-->
+                    <!--            <li>13</li>-->
+                    <!--            <li>14</li>-->
+                    <!--            <li>15</li>-->
+                    <!--            <li>16</li>-->
+                    <!--            <li>17</li>-->
+                    <!--            <li>18</li>-->
+                    <!--            <li>19</li>-->
+                    <!--            <li>20</li>-->
+                    <!--            <li>21</li>-->
+                    <!--            <li>22</li>-->
+                    <!--            <li>26</li>-->
+                    <!--            <li>37</li>-->
+                    <!--            <li>38</li>-->
+                    <!--            <li>39</li>-->
+                    <!--            <li>310</li>-->
+                    <!--            <li>311</li>-->
+                    <!--            <li>312</li>-->
+                    <!--            <li>313</li>-->
+                    <!--            <li>314</li>-->
+                    <!--            <li>315</li>-->
+                    <!--            <li>316</li>-->
+                    <!--            <li>30</li>-->
+                    <!--            <li>41</li>-->
+                    <!--            <li>42</li>-->
+                    <!--            <li>43</li>-->
+                    <!--            <li>44</li>-->
+                    <!--            <li>45</li>-->
+                    <!--            <li>46</li>-->
+                    <!--            <li>47</li>-->
+                    <!--            <li>48</li>-->
+                    <!--            <li>49</li>-->
+                    <!--            <li>510</li>-->
+                    <!--            <li>511</li>-->
+                    <!--            <li>512</li>-->
+                    <!--            <li>513</li>-->
+                    <!--            <li>514</li>-->
+                    <!--            <li>515</li>-->
+                    <!--            <li>516</li>-->
+                    <!--            <li>50</li>-->
+                    <!--            <li>51</li>-->
+                    <!--            <li>52</li>-->
+                    <!--            <li>53</li>-->
+                    <!--            <li>54</li>-->
+                    <!--            <li>55</li>-->
+                    <!--            <li>56</li>-->
+                    <!--            <li>67</li>-->
+                    <!--            <li>68</li>-->
+                    <!--            <li>69</li>-->
+                    <!--            <li>610</li>-->
+                    <!--            <li>611</li>-->
+                    <!--            <li>612</li>-->
+                    <!--            <li>613</li>-->
+                    <!--            <li>614</li>-->
+                    <!--            <li>615</li>-->
+                    <!--            <li>616</li>-->
+                    <!--            <li>60</li>-->
+                    <!--            <li>71</li>-->
+                    <!--            <li>72</li>-->
+                    <!--            <li>73</li>-->
+                    <!--            <li>74</li>-->
+                    <!--            <li>75</li>-->
+                    <!--            <li>76</li>-->
+                    <!--            <li>77</li>-->
+                    <!--            <li>78</li>-->
+                    <!--            <li>79</li>-->
+                    <!--            <li>710</li>-->
+                    <!--            <li>811</li>-->
+                    <!--            <li>812</li>-->
+                    <!--            <li>813</li>-->
+                    <!--            <li>814</li>-->
+                    <!--            <li>815</li>-->
+                    <!--            <li>816</li>-->
+                </ul>
+            </div>
+            <ul class="pages"></ul>
         </div>
-      </div>
     </div>
-  </div>
+</div>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/sly.min.js"></script>
-  <script src="js/sly-horizontal.js"></script>
-  <script src="js/plugins.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/moment-with-locales.min.js"></script>
+<script src="js/sly.js"></script>
+<script src="js/sly-horizontal.js"></script>
 </body>
 </html>
